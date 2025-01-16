@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* root */
+
+:root {
+  --border-radius: 5px;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-offset: 0px 0px 10px 0px;
+  --shadow-blur: 10px;
+  --transition-duration: 0.3s;
+  --background-color:#FFFFFF;
+  --primary-color:#005497;
+  --secondary-color: #E6F4FF;
+
+}
+body {
+  background: var(--background);
+  margin: 0;
+  direction: rtl;
+}
+
