@@ -9,7 +9,6 @@ const Header = ({ handelSearh }) => {
                 {/* العنوان */}
                 <h1 className="text-3xl font-semibold">الأرشيف</h1>
                 
-                {/* قائمة التنقل */}
                 <nav>
                     <ul className="flex space-x-6">
                         {/* الرابط الرئيسي مع أيقونة */}
@@ -20,11 +19,9 @@ const Header = ({ handelSearh }) => {
                                 className="flex items-center space-x-2 hover:underline transition-all duration-300 font-[Cairo] font-bold text-xl text-white rounded-lg border-2 border-[#005497] bg-primary-color p-3"
                             >
                                 <FaHome />  {/* أيقونة الرئيسية */}
-                                {/* <span>الرئيسية</span> */}
                             </Link>
                         </li>
                         
-                        {/* الرابط العنوان مع أيقونة */}
                         <li>
                             <Link 
                                 to={'/Archives/Address'} 
